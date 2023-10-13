@@ -13,10 +13,11 @@ export default {
 <style>
 .footer_container {
   margin: auto;
-  height: 100%;
+  height: 10vh;
   background: #000;
   padding: 20px;
   text-align: center;
-  
+  position: sticky;
+  bottom: 0;
 }
 </style>

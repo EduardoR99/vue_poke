@@ -9,8 +9,8 @@
         </div>
     </div>
     <div class="nav_right">
-        <a href="">Favorites</a>
-        <a href="">Perfil</a>
+        <a class="is-warning" href="">Favorites</a>
+        <a class="is-warning" href="">Perfil</a>
     </div>
   </div>
 </template>
@@ -26,9 +26,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*background-color: #3c3c3c;*/
 }
 .icon_img{
-    padding: 1em;
+    padding: .3em;
     cursor: pointer;
 }
 .icon_img i{
@@ -36,5 +37,9 @@ export default {
 }
 .nav_right a{
     padding: 1em;
+    text-decoration: none;
+    color: #e76e55;
+    font-size: 18px;
+    font-weight: 700;
 }
 </style>
